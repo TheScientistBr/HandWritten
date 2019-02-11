@@ -41,4 +41,5 @@ p <- ggplot(data.frame(rows=rowsToPlot, labels=labels[rowsToPlot]), aes(x=.1, y=
               axis.line = element_blank()) +
         ggtitle("Example Handwritten Digits")
 
+
 ggsave("example_digits.png", p, width=10, height=10)
